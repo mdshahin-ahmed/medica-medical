@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
 const Booking = () => {
     const {serviceId} = useParams();
     return (
         <div>
-            <h2>This is Booking {serviceId}</h2>
+            <h1>Id {serviceId}</h1>
         </div>
     );
 };
