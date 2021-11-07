@@ -1,0 +1,14 @@
+.banner{
+    height: 86vh;
+}
+.banner img{
+    height: 86vh;
+    opacity: 0.6;
+}
+.slider-caption{
+    color: rgb(255, 255, 255);
+    margin-bottom: 13rem;
+}
+.slider-img-container{
+    background: #000;
+}
