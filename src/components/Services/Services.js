@@ -12,7 +12,7 @@ const Services = () => {
     },[]);
     return (
         <div>
-            <Header></Header>
+            {/* <Header></Header> */}
             <div className='container mt-4'>
                 <div className="row">
                     {

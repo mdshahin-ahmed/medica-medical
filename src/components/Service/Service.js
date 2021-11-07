@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Service.css'
+import './Service.css';
 
 const Service = ({service}) => {
     const {id, img, serviceName, title, price, description} = service;
+    
     return (
         <div className='col-lg-4 col-md-6'>
             <div className="card service text-center">

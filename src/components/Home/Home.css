@@ -1,0 +1,43 @@
+.card_1{
+    background: #68c8cf;
+    border: none;
+    border-radius: 0px;
+}
+.card_1 .fa{
+    font-size: 2rem;
+}
+.card_1 h4{
+    margin-top: 2rem;
+}
+.card_2{
+    background: #54c6ce;
+    border: none;
+    border-radius: 0px;
+}
+.card_2 .fa{
+    font-size: 2rem;
+}
+.card_2 h4{
+    margin-top: 1.5rem;
+}
+.card_2 .btn{
+    color: white;
+    border: 0.1rem solid white;
+}
+.card_2 .btn:hover{
+    color: var(--mainBg);
+    background: white;
+    transition: all 0.3s linear;
+}
+.last_col{
+    background: #69ccd3;
+}
+.card_3{
+    background: #69ccd3;
+    border: none;
+    width: 100% !important;
+    border-radius: 0px;
+}
+.card_3 span{
+  font-size: 1rem;
+}
