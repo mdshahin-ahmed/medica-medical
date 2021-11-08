@@ -17,14 +17,15 @@ const useFirebase = () => {
     }
 
     useEffect( () => {
-        onAuthStateChanged(auth, (user) => {
+        const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user);
             }else{
                 setUser({})
             }
+            setIsLoading(false);
         });
-        setIsLoading(false);
+        return ()=> unsubscribe()
     },[]);
 
     const loginWithEmailAndPassword = (email, password) => {
