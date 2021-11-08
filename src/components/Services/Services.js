@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Header from '../Header/Header';
 import Service from '../Service/Service';
 
 
@@ -12,7 +11,7 @@ const Services = () => {
     },[]);
     return (
         <div>
-            {/* <Header></Header> */}
+            <h1 className='text-center'>Our Services</h1>
             <div className='container mt-4'>
                 <div className="row">
                     {

@@ -4,7 +4,7 @@ import useAuth from '../../context/useAuth';
 import Header from '../Header/Header';
 
 const Login = () => {
-    const [email, setEmail] = useState('');
+    const [email, setEmail, setIsLoading] = useState('');
     const [password, setPassword] = useState('');
     const {signInUsingGoogle} = useAuth();
     const location = useLocation();
@@ -15,6 +15,7 @@ const Login = () => {
         .then(result => {
             history.push(redirectUrl)
         })
+        .finally(()=>setIsLoading(false))
     }
     const handleRegistation = e => {
         console.log(email, password);

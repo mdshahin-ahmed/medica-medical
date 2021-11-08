@@ -9,13 +9,13 @@ const Contact = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-8 m-auto">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email"/>
+                    <div className="mb-3">
+                        <label for="exampleFormControlInput1" className="form-label">Email address</label>
+                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email"/>
                         </div>
-                        <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder='Your Message' rows="3"></textarea>
+                        <div className="mb-3">
+                        <label for="exampleFormControlTextarea1" className="form-label">Message</label>
+                        <textarea className="form-control" id="exampleFormControlTextarea1" placeholder='Your Message' rows="3"></textarea>
                         </div>
                     </div>
                 </div>

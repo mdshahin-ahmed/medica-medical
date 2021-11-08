@@ -14,6 +14,7 @@ import Confirm from './components/Confirm/Confirm';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import Gallerys from './components/Gallerys/Gallerys';
 
 function App() {
   return (
@@ -32,6 +33,12 @@ function App() {
             <Route path='/services'>
               <Header></Header>
               <Services></Services>
+              <Footer></Footer>
+            </Route>
+            <Route path='/gallery'>
+              <Header></Header>
+              <Gallerys></Gallerys>
+              <Footer></Footer>
             </Route>
             <PrivateRoute path='/contact'>
               <Header></Header>

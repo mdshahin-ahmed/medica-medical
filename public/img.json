@@ -1,0 +1,34 @@
+[
+    {
+      "id":1,
+      "imgSrc": "https://i.ibb.co/cx7dG29/Gastroenterology.jpg"
+    },
+    {
+      "id":2,
+      "imgSrc": "https://i.ibb.co/C5MW4SC/Doctor-consulting-female-patient-about-pills-and-dicsussing-health-treatment-sitting-in-the-office-a.jpg"
+    },
+    {
+      "id":3,
+      "imgSrc": "https://i.ibb.co/v1nz9gJ/sergery.jpg"
+    },
+    {
+      "id":4,
+      "imgSrc": "https://i.ibb.co/Ln9hjvd/service-five.jpg"
+    },
+    {
+      "id":5,
+      "imgSrc": "https://i.ibb.co/wc3Vyw6/service-four.jpg"
+    },
+    {
+      "id":6,
+      "imgSrc": "https://i.ibb.co/bBdnYGG/service-one.jpg"
+    },
+    {
+      "id":7,
+      "imgSrc": "https://i.ibb.co/19DXJNG/service-three.jpg"
+    },
+    {
+      "id":8,
+      "imgSrc": "https://i.ibb.co/gtr8kTN/service-two.jpg"
+    }
+  ]
