@@ -24,13 +24,13 @@ const Booking = () => {
     return (
         <div>
             <div className="container  mt-5 pt-5">
-                <div class="card">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src={img} class="w-100 h-100 rounded-start" alt="..."/>
+                <div className="card">
+                    <div className="row g-0">
+                        <div className="col-md-4">
+                            <img src={img} className="w-100 h-100 rounded-start" alt="..."/>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
+                        <div className="col-md-8">
+                            <div className="card-body">
                                 <h4 className="card-title">{serviceName}</h4>
                                 <h6 className="card-text">{title}</h6>  
                                 <h6>Price: {price}</h6>                  
