@@ -12,6 +12,8 @@ import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Confirm from './components/Confirm/Confirm';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -21,14 +23,21 @@ function App() {
         <Switch>
             <Route exact path='/'>
               <Home></Home>
+              <Footer></Footer>
             </Route>
             <Route path='/home'>
               <Home></Home>
+              <Footer></Footer>
             </Route>
             <Route path='/services'>
               <Header></Header>
               <Services></Services>
             </Route>
+            <PrivateRoute path='/contact'>
+              <Header></Header>
+              <Contact></Contact>
+              <Footer></Footer>
+            </PrivateRoute>
             <Route path='/login' >
             <Login></Login>
             </Route>
