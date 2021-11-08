@@ -2,7 +2,7 @@
 
 This project code Link: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-mdshahin-ahmed
 
-This project Live site Link: https://medica-medical.web.app/
+This project Live site Link: https://medica-medical.web.app
 
 ## The benefit of these Projects
 
